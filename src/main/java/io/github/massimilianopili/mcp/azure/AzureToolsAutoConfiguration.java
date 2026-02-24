@@ -31,7 +31,11 @@ import org.springframework.context.annotation.Import;
         AzureCostTools.class,
         AzureTagTools.class,
         AzureAdTools.class,
-        AzureRbacTools.class
+        AzureRbacTools.class,
+        AzurePostgresTools.class,
+        AzureAppGatewayTools.class,
+        AzureFrontDoorTools.class,
+        AzureMonitorTools.class
 })
 public class AzureToolsAutoConfiguration {
     // Tool registrati automaticamente da ReactiveToolAutoConfiguration di spring-ai-reactive-tools
