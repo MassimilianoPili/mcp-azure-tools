@@ -1,0 +1,38 @@
+package io.github.massimilianopili.mcp.azure;
+
+import org.springframework.boot.autoconfigure.AutoConfiguration;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.Import;
+
+@AutoConfiguration
+@ConditionalOnProperty(name = "mcp.azure.client-id")
+@EnableConfigurationProperties(AzureProperties.class)
+@Import({
+        AzureConfig.class,
+        AzureSubscriptionTools.class,
+        AzureResourceGroupTools.class,
+        AzureVmTools.class,
+        AzureStorageTools.class,
+        AzureAksTools.class,
+        AzureAppServiceTools.class,
+        AzureKeyVaultTools.class,
+        AzureAcrTools.class,
+        AzureNetworkTools.class,
+        AzureDnsTools.class,
+        AzureSqlTools.class,
+        AzureCosmosDbTools.class,
+        AzureServiceBusTools.class,
+        AzureContainerAppTools.class,
+        AzureFunctionTools.class,
+        AzureRedisCacheTools.class,
+        AzurePolicyTools.class,
+        AzureLockTools.class,
+        AzureCostTools.class,
+        AzureTagTools.class,
+        AzureAdTools.class,
+        AzureRbacTools.class
+})
+public class AzureToolsAutoConfiguration {
+    // Tool registrati automaticamente da ReactiveToolAutoConfiguration di spring-ai-reactive-tools
+}
