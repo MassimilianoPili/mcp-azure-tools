@@ -35,7 +35,11 @@ import org.springframework.context.annotation.Import;
         AzurePostgresTools.class,
         AzureAppGatewayTools.class,
         AzureFrontDoorTools.class,
-        AzureMonitorTools.class
+        AzureMonitorTools.class,
+        AzureBastionTools.class,
+        AzurePrivateDnsTools.class,
+        AzureContainerInstanceTools.class,
+        AzureDiagnosticTools.class
 })
 public class AzureToolsAutoConfiguration {
     // Tool registrati automaticamente da ReactiveToolAutoConfiguration di spring-ai-reactive-tools
