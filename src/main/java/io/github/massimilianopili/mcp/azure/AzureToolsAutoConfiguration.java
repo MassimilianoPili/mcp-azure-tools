@@ -53,7 +53,27 @@ import org.springframework.context.annotation.Import;
         AzureStaticWebAppsTools.class,
         AzureLogicAppsTools.class,
         AzureCognitiveServicesTools.class,
-        AzureDefenderTools.class
+        AzureDefenderTools.class,
+        AzureLoadBalancerTools.class,
+        AzureVmssTools.class,
+        AzureAutoscaleTools.class,
+        AzureTrafficManagerTools.class,
+        AzureVpnGatewayTools.class,
+        AzureManagedDiskTools.class,
+        AzureAppConfigurationTools.class,
+        AzureAlertTools.class,
+        AzureSearchTools.class,
+        AzureDataFactoryTools.class,
+        AzureIotHubTools.class,
+        AzureSignalRTools.class,
+        AzureDatabricksTools.class,
+        AzureSynapseTools.class,
+        AzureCdnTools.class,
+        AzureMLTools.class,
+        AzureSpringAppsTools.class,
+        AzureStreamAnalyticsTools.class,
+        AzureImageTools.class,
+        AzureExpressRouteTools.class
 })
 public class AzureToolsAutoConfiguration {
     // Tool registrati automaticamente da ReactiveToolAutoConfiguration di spring-ai-reactive-tools
