@@ -10,13 +10,13 @@ Use the aggregator module to include all tools:
 <dependency>
     <groupId>io.github.massimilianopili</groupId>
     <artifactId>mcp-azure-all</artifactId>
-    <version>0.0.1</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
 Or include individual modules: `mcp-azure-core`, `mcp-azure-compute`, `mcp-azure-network`, `mcp-azure-data`, `mcp-azure-messaging`, `mcp-azure-security`, `mcp-azure-monitoring`, `mcp-azure-integration`.
 
-Requires Java 17+, Spring AI 1.0.0+, and [spring-ai-reactive-tools](https://github.com/MassimilianoPili/spring-ai-reactive-tools) 0.2.0+.
+Requires Java 21+, Spring AI 1.0.0+, and [spring-ai-reactive-tools](https://github.com/MassimilianoPili/spring-ai-reactive-tools) 0.3.0+.
 
 ## Modules
 
@@ -54,10 +54,10 @@ Create a Service Principal: Azure AD > App registrations > New registration > Ce
 
 ## Requirements
 
-- Java 17+
+- Java 21+
 - Spring Boot 3.4+ with WebFlux
 - Spring AI 1.0.0+
-- spring-ai-reactive-tools 0.2.0+
+- spring-ai-reactive-tools 0.3.0+
 
 ## License
 
